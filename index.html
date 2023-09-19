@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/images/playa.paradisiaca.jpg" type="jpg">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Roboto+Slab&display=swap" rel="stylesheet">
   <title>Mi Blog de Vacaciones</title>
 </head>
 
@@ -12,28 +16,49 @@
   <header>
     <h1>Bienvenidos a mi blog de vacaciones</h1>
   </header>
-  <nav>
-    <ul>
-      <li><a href="https://google.com">Inicio</a></li>
-      <li>><a
-          href="https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Destinos</a>
-      </li>
-      <li>Blog</li>
-      <li>Contacto</li>
-    </ul>
-  </nav>
+  <section>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="https://google.com" target="_blank">Inicio</a></li>
+          <li><a href="https://trivago.es" target="_blank">Destinos</a>
+          </li>
+          <li><a href="https://es.wikipedia.org/wiki/Blog" target="_blank">Blog </a></li>
+          <li><a href="https://dle.rae.es/contacto" target="_blank">Contacto </a> </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
   <main>
-    <h2>Mis vacaciones en Paris</h2>
-    <p>Mis vacaciones en Paris fueron muy bonitas. Comi muchas baguettes y vi muchas ratas. Los franceses me me miraban
-      mal cada vez que trataba de pronunciar croissant</p>
+    <section>
+      <div>
+        <article>
+          <h2>Mis vacaciones en Paris</h2>
+          <p>Mis vacaciones en Paris fueron muy bonitas. Comi muchas baguettes y vi muchas ratas. Los franceses me me
+            miraban
+            mal cada vez que trataba de pronunciar croissant</p>
+        </article>
+        <article>
+          <h2>Mis vacaciones en Nueva York</h2>
+          <p>Las vacaciones que he tomado en Nueva York fueron muy bonitas. Gaste 4000 dolares en una semana y sali a
+            comer
+            solo dos dias. Vi a un indigente pelearse con una zariguella por un pedazo de pizza. La zariguella ganó</p>
+        </article>
+      </div>
+    </section>
+    <h2 class="next-trip-header">Proximos viajes</h2>
 
-    <h2>Mis vacaciones en Nueva York</h2>
-    <p>Las vacaciones que he tomado en Nueva York fueron muy bonitas. Gaste 4000 dolares en una semana y sali a comer
-      solo dos dias. Vi a un indigente pelearse con una zariguella por un pedazo de pizza. La zariguella ganó</p>
-    <h2>Proximos viajes</h2>
-    <h3>Islas PiPi</h3><img src="/images/salto.jpg" />
-    <h3>Chicago</h3><img src="images/new-york.jpg" />
-    <h3>Berlin</h3><img src="images/istockphoto-479005779-612x612.jpg" />
+    <section class="next-trip-photos">
+      <div>
+        <h3>Islas Phi Phi</h3><img src="/images/salto.jpg" alt="hombre-saltando-al-agua">
+      </div>
+      <div>
+        <h3>Chicago</h3> <img src="images/new-york.jpg" alt="ciudad-de-chicago">
+      </div>
+      <div>
+        <h3>Berlin</h3> <img src="images/istockphoto-479005779-612x612.jpg" alt="ciudad-de-berlin">
+      </div>
+    </section>
 
   </main>
 </body>

@@ -1,0 +1,85 @@
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #57577a;
+}
+
+main {
+  height: 400px;
+  padding: 20px;
+  border: 10px solid var(--main--color);
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  border: solid;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a {
+  color: #628378;
+  border: silver;
+  font-size: 110%;
+  border: solid;
+  border-radius: 25%;
+  width: 200px;
+  background-color: #1c1c1c;
+}
+
+ul {
+  list-style: -moz-linear-gradient();
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  align-content: stretch;
+  justify-content: space-around;
+  margin: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main article {
+  border-bottom: solid;
+  padding: 20px;
+}
+.next-trip-header {
+  padding: 42px;
+}
+
+.next-trip.photos {
+  display: flex;
+}
+section.next-trip-photos {
+  display: flex;
+}
+
+.next-trip.photos img {
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+}
+.next-trip.photos h3 {
+  display: block;
+}
+.destinations-words {
+  display: flex;
+  justify-content: space-between;
+}
